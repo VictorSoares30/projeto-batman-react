@@ -1,0 +1,121 @@
+footer {
+    width: 100vw;
+    height: 250px;
+    background-color: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    bottom: 0;
+}
+
+.footer-logo-menu {
+    width: 100vw;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+#footer-logo {
+    width: 270px;
+    height: auto;
+}
+
+.footer-nav {
+    width: 30%;
+}
+
+.footer-ul {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 100%;
+}
+
+.li-footer {
+    font-family: "Kdam Thmor Pro", sans-serif;
+    font-size: 1.2rem;
+    color: aliceblue;
+    list-style: none;
+    transition: .5s;
+}
+
+.li-footer:hover {
+    color: #d21617;
+}
+
+.footer-copy {
+    width: 100vw;
+    height: 50px;
+    display: flex;  
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-span {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 300;
+    color: #fff;
+    cursor: default;
+}
+
+
+@media(max-width: 834px) {
+    #footer-logo {
+        width: 25%;
+    }
+    .li-footer {
+        font-size: 1rem;
+    }
+}
+@media(max-width: 768px) {
+    footer {
+        height: 200px;
+    }
+    .footer-logo-menu {
+        height: 150px;
+    }
+    .footer-nav {
+        width: 40%;
+    }
+}
+
+@media(max-width: 430px) {
+    .li-footer {
+        font-size: 0.8rem
+    }
+    .footer-span {
+        font-size: 0.7rem;
+    }
+    .footer-logo-menu {
+        justify-content: space-evenly;
+    }
+    .footer-ul {
+        width: 80%;
+    }
+    .footer-nav {
+        width: 50%;
+    }
+}
+
+@media(max-width: 390px) {
+    .footer-nav {
+        width: 50%;
+    }
+    .footer-ul {
+        width: 80%;
+    } 
+    .li-footer {
+        font-size: 0.7rem;
+    } 
+}
+
+@media(max-width: 390px) {
+    footer {
+        padding: 0 20px;
+    }
+    .footer-logo-menu {
+        justify-content: space-between;
+    }
+}
+
+

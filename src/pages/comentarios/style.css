@@ -1,0 +1,50 @@
+.comentarios-box {
+    position: relative;
+    background-image: url('../../assets/fundo-comentarios.jpg');
+    background-size: cover;
+    width: 100%;
+    height: 130vh;
+    overflow: hidden;
+}
+
+@media(max-width: 1366px) {
+    .comentarios-box {
+        height: 150vh;
+    }
+}
+
+@media(max-width: 1024px) {
+    .comentarios-box {
+        height: 100vh;
+    }
+}
+
+@media(max-width: 810px) {
+    .comentarios-box {
+        height: 220vh;
+    }
+}
+
+@media(max-width: 640px) {
+    .comentarios-box {
+        height: 270vh;
+    }
+}
+
+@media(max-width: 600px) {
+    .comentarios-box {
+        height: 230vh;
+    }
+}
+
+@media(max-width: 430px) {
+    .comentarios-box {
+        height: 220vh;
+    }
+}
+
+
+
+
+
+

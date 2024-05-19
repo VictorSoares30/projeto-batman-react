@@ -1,0 +1,12 @@
+.user-logado {
+    color: #000;
+    font-size: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.user-container {
+    height: 100vh;
+}

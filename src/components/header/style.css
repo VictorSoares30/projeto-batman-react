@@ -110,6 +110,11 @@ header {
     }
 }
 
+@media(max-width: 414px) {
+    .nav-links {
+        margin-right: 30px;
+    }
+}
 
 @media(max-width: 375px) {
     .nav-links {

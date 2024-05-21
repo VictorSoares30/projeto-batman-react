@@ -1,12 +1,10 @@
 .main-container {
     height: 130vh;
-    background-image: url('../../assets/bg-city.jpg');
-    background-size: cover;
+    background-color: #211b15;
     position: relative;
     display: flex;
     flex-direction: column;
     overflow: hidden;
-    background-attachment: fixed;
 }
 
 .modal {

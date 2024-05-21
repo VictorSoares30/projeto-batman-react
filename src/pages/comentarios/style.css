@@ -1,8 +1,6 @@
 .comentarios-box {
     position: relative;
-    background-image: url('../../assets/fundo-comentarios.jpg');
-    background-size: cover;
-    width: 100%;
+    background-color: #211b15;
     height: 130vh;
     overflow: hidden;
 }

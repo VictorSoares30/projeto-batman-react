@@ -1,8 +1,6 @@
 .contato-container {
-    width: 100%;
     height: 120vh;
-    background-image: url('../../assets/fundo-contato.jpg');
-    background-size: cover;
+    background-color: #211b15;
     position: relative;
     overflow: hidden;
 }

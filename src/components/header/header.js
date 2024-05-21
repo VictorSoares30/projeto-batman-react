@@ -1,11 +1,10 @@
 import React, { useState } from "react";
-import { Link, useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
 import './style.css'
 import Logo from '../../assets/logo-batman-sembg.png';
 
 
 function Header() {
-    const navigate = useNavigate();
     const [active, setAcive] = useState("nav-list");
     const [toggleIcon, setToggleIcon] = useState("nav-menu");
     const [animateLinks, setAnimatelinks] = useState("nav-links");
@@ -67,7 +66,6 @@ function Header() {
                     <Link style={{ textDecoration: 'none'}} to='/comentarios'>
                     <li className={animateLinks4}>Comentários</li>
                     </Link>
-                    <li className={animateLinks5} onClick={() => navigate('/user')}>Login</li>
                 </ul>
                 <div onClick={navToggle} className={toggleIcon}>
                     <div className="line1"></div>

@@ -13,7 +13,6 @@ header {
 
 .nav-list {
     display: flex;
-    align-items: center;
 }
 
 .nav-links {
@@ -54,7 +53,7 @@ header {
     }
     .nav-list {
         position: absolute;
-        top: 8vh;
+        top: 10vh;
         right: 0;
         width: 50vw;
         height: 40vh;
@@ -68,6 +67,7 @@ header {
         transition: 0.3s ease-in;
     }
     .nav-links {
+        margin-right: 20px;
         margin-left: 0;
         opacity: 0;
         letter-spacing: 0;
@@ -102,13 +102,14 @@ header {
     #logo {
         width: 100px;
     }
-}
-
-@media(max-width: 414px) {
+    .nav-links {
+        margin-right: 0;
+    }
     .nav-list {
-        top: 7vh;
+        top: 7.5vh;
     }
 }
+
 
 @media(max-width: 375px) {
     .nav-links {

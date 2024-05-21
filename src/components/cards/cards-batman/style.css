@@ -1,9 +1,10 @@
 .actor-cards-container {
     width: 100%;
-    height: 1000px;
+    height: 100vh;
     display: flex;
     justify-content: center;
-    background-color: #211b15;
+    align-items: center;
+    background-color: #2b231a;
 }
 
 .cards-content {
@@ -16,7 +17,7 @@
 
 .card {
     width: 100%;
-    height: 600px;
+    height: 80vh;
     background-size: cover;
     background-position: 50% 50%;
     border-radius: 6px;
@@ -58,7 +59,6 @@
         column-gap: 20px;
     }
     .card {
-        height: 450px;
         box-shadow: 0 0 10px #d21617;
     }
 }
@@ -107,29 +107,37 @@
     }
 }
 
+@media(max-width: 430px) {
+    .actor-cards-container {
+        height: 160vh;
+    }
+}
+
 @media(max-width: 414px) {
+    .actor-cards-container {
+        height: 160vh;
+    }
+    .cards-content {
+        row-gap: 30px;
+    }
     .card {
         width: 90%;
-        height: 400px;
-    }
-    .actor-cards-container {
-        height: 1650px;
+        height: 45vh;
     }
 }
 
 @media(max-width: 375px) {
     .card {
         width: 90%;
-        height: 370px;
     }
     .actor-cards-container {
-        height: 250vh;
+        height: 150vh;
     }
 }
 
 @media(max-width: 360px) {
     .actor-cards-container {
-        height: 225vh;
+        height: 170vh;
     }
 }
 

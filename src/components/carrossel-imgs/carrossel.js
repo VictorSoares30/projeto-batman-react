@@ -7,6 +7,7 @@ import bg4 from "../../assets/carrossel-4.jpg";
 import bg5 from "../../assets/carrossel-5.jpg";
 import bg6 from "../../assets/carrossel-6.png";
 import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
+import Logo2 from "../../assets/profissao-programador.png";
 
 function Carrossel() {
 
@@ -81,6 +82,10 @@ function Carrossel() {
                     <button onClick={prevSlide} className="prev"> <FaArrowLeft /> </button>
                     <button onClick={nextSlide} className="next"> <FaArrowRight /> </button>
                 </div>
+            </div>
+
+            <div className="logo-profissao-programador">
+                <img className="logo2" alt="logo-profissao-progrmador" src={Logo2} />
             </div>
        </section>
     )

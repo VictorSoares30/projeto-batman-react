@@ -10,7 +10,6 @@ function Fotos() {
     return (
         <div className="main-container"> 
             <Header />
-            <div className="modal"></div>
             <Carrossel />
             <Footer />
         </div>

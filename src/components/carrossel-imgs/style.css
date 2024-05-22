@@ -3,17 +3,19 @@
 
 .slide-section {
     width: 100%;
-    height: 900px;
-    position: absolute;
-    top: 80px;
+    height: 170vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .fotos-tittle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10vh;
     font-size: 3rem;
     color: #ccc;
-    position: absolute;
-    top: 5vh;
-    left: 45%;
     font-family: "Kdam Thmor Pro", sans-serif;
     text-shadow: 0 0 15px #000;
 }
@@ -129,6 +131,17 @@
     animation-duration: 1s ease-in-out 1.2s 1 forwards;
 }
 
+.logo-profissao-programador {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo2 {
+    width: 70%;
+    height: auto;
+}
+
 @keyframes animate {
     from {
         opacity: 0;
@@ -162,8 +175,8 @@
 }
 
 .prev:hover, .next:hover {
-    background-color: #ababab;
-    color: #fff;
+    background-color: #d21617;
+    color: #000;
 }
 
 @media(max-width: 1280px) {
@@ -195,7 +208,7 @@
 
 @media(max-width: 834px) {
     .slide-section {
-        height: 800px;
+        height: 110vh;
     }
     .container {
         width: 780px;
@@ -311,6 +324,9 @@
 }
 
 @media(max-width: 430px) {
+    .slide-section {
+        height: 100vh;
+    }
     .fotos-tittle {
         font-size: 2rem;
     }

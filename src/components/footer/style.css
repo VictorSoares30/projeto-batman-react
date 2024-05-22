@@ -36,7 +36,7 @@ footer {
 .li-footer {
     font-family: "Kdam Thmor Pro", sans-serif;
     font-size: 1.2rem;
-    color: aliceblue;
+    color: rgb(185, 187, 189);
     list-style: none;
     transition: .5s;
 }
@@ -56,7 +56,7 @@ footer {
 .footer-span {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 300;
-    color: #fff;
+    color: rgb(185, 187, 189);
     cursor: default;
 }
 

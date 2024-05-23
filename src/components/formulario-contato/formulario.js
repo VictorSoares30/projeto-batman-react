@@ -28,8 +28,8 @@ function Formulario() {
                         <input type="text" name="first-name" placeholder="Nome"/>
                         <input type="text" name="last-name" placeholder="Sobrenome"/>
                         <input type="number" name="number" placeholder="Telefone"/>
-                        <input type="email" name="email" placeholder="Email"/>
                         <input type="text" name="cidade" placeholder="Cidade"/>
+                        <input type="email" name="email" placeholder="Email"/>
 
                         <textarea name="message" placeholder="Descreva sua dúvida"></textarea> 
                     </form>

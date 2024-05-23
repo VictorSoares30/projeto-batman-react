@@ -1,8 +1,7 @@
 .comentarios-box {
-    position: relative;
-    background-color: #211b15;
-    height: 130vh;
-    overflow: hidden;
+    background-color: #3f3c39;
+    height: 120vh;
+    overflow-x: hidden;
 }
 
 @media(max-width: 1366px) {

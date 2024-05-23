@@ -1,10 +1,9 @@
 .actor-cards-container {
     width: 100%;
-    height: 100vh;
+    height: 90vh;
     display: flex;
     justify-content: center;
-    align-items: center;
-    background-color: #2b231a;
+    background-color: #3f3c39;
 }
 
 .cards-content {
@@ -51,33 +50,40 @@
     background-image: url('https://static0.gamerantimages.com/wordpress/wp-content/uploads/2022/02/The-Batman-Jeffrey-Wright-Commissioner-Gordon-Challenge.jpg');
 }
 
-@media(max-width: 834px) {
+@media(max-width: 1024px) {
     .actor-cards-container {
-        height: 70vh;
+        height: 50vh;
     }
     .cards-content {
-        column-gap: 20px;
+        column-gap: 30px;
     }
     .card {
+        height: 40vh;
+    }
+}
+
+@media(max-width: 834px) {
+    .cards-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .actor-cards-container {
+        height: 165vh;
+    }
+    .card {
+        width: 60%;
+        height: 50vh;
         box-shadow: 0 0 10px #d21617;
     }
 }
 
 @media(max-width: 800px) {
-    .cards-content {
-        width: 95%;
-    }
     .actor-cards-container {
-        height: 60vh;
+        height: 150vh;
     }
-}
-
-@media(max-width: 768px) {
-    .cards-content {
-        justify-content: space-between;
-    } 
-    .actor-cards-container {
-        height: 75vh;
+    .card {
+        height: 45vh;
     }
 }
 
@@ -91,7 +97,6 @@
 @media(max-width: 600px) {
     .actor-cards-container {
         height: 180vh;
-        position: relative;
     }
     .cards-content {
         display: flex;
@@ -99,17 +104,24 @@
         align-items: center;
         column-gap: 0;
         justify-content: center;
-        position: absolute;
-        top: 0;
     }
     .card {
         width: 70%;
     }
 }
 
+@media(max-width: 480px) {
+    .actor-cards-container {
+        height: 170vh;
+    }
+}
+
 @media(max-width: 430px) {
     .actor-cards-container {
-        height: 160vh;
+        height: 140vh;
+    }
+    .card {
+        height: 40vh;
     }
 }
 
@@ -120,16 +132,9 @@
     .cards-content {
         row-gap: 30px;
     }
-    .card {
-        width: 90%;
-        height: 45vh;
-    }
 }
 
-@media(max-width: 375px) {
-    .card {
-        width: 90%;
-    }
+@media(max-width: 414px) {
     .actor-cards-container {
         height: 150vh;
     }
@@ -137,7 +142,10 @@
 
 @media(max-width: 360px) {
     .actor-cards-container {
-        height: 170vh;
+        height: 185vh;
+    }
+    .card {
+        height: 45vh;
     }
 }
 

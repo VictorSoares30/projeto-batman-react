@@ -1,8 +1,7 @@
 .contato-container {
-    height: 120vh;
-    background-color: #211b15;
-    position: relative;
-    overflow: hidden;
+    height: 100vh;
+    background-color: #3f3c39;
+    overflow-x: hidden;
 }
 
 @media(max-width: 1366px) {

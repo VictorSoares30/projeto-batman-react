@@ -1,8 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
 
 .body {
-    position: relative;
-    background-color: #2b231a;
+    background-color: #3f3c39;
 }
 
 #banner {
@@ -34,7 +33,7 @@
 
 #sinopse {
     width: 50%;
-    height: 80%;
+    height: 50%;
     display: flex;  
     flex-direction: column;
     justify-content: space-around;
@@ -80,16 +79,25 @@
     }
 }
 
+@media(max-width: 1366px) {
+    #trailer-container {
+        height: 60vh;
+    }
+}
+
 @media(max-width: 1024px) {
     #banner {
-        background-position: 70%, 50%;
+        background-position: 35%, 50%;
+        height: 50vh;
+    }
+    #trailer-container {
+        height: 45vh;
     }
     .content {
         width: 90%;
         justify-content: space-around;
     }
     #sinopse {
-        height: 70%;
         margin-left: 15px;
     }
     .description {
@@ -103,7 +111,6 @@
     }
     .content {
         flex-direction: column;
-        height: 600px;
         padding: 30px 0;
     }
     #sinopse {
@@ -113,21 +120,20 @@
         align-items: center;
     }
     #trailer-container {
-        height: 100%;
-        align-items: center;
+        height: 60vh;
     }
     .trailer {
         width: 70%;
     }
 }
 
-@media(max-width: 640px) {
-    .body {
-        height: 250vh;
-    }
+@media(max-width: 768px) {
     #trailer-container {
-        height: 600px;
+        height: 70vh;
     }
+}
+
+@media(max-width: 640px) {
     .description {
         font-size: 17px;
     }
@@ -138,15 +144,6 @@
     }
 }
 
-@media(max-width: 600px) {
-    .body {
-        height: 280vh;
-    }
-    #trailer-container {
-        height: 500px;
-    }
-}
-
 @media(max-width: 688px) {
     .content {
         width: 100%;
@@ -154,15 +151,18 @@
     }
 }
 
-@media(max-width:430px) {
-    .body {
-        height: 200vh;
-    }
+@media(max-width: 480px) {
     #trailer-container {
-        height: 580px;
+        height: 45vh;
     }
+}
+
+@media(max-width:430px) {
     #banner {
         background-position: 40%, 50%;
+    }
+    #trailer-container {
+        height: 55vh;
     }
     .trailer {
         width: 90%;
@@ -183,15 +183,30 @@
     }
 }
 
-@media(max-width:430px) {
-    .body {
-        height: 310vh;
+@media(max-width: 414px) {
+    #trailer-container {
+        height: 50vh;
     }
 }
 
-@media(max-width: 390px) {
-    .body {
-        height: 320vh;
+@media(max-width: 393px) {
+    #trailer-container {
+        height: 60vh;
+    }
+}
+
+@media(max-width: 360px) {
+    #trailer-container {
+        height: 65vh;
+    }
+}
+
+@media(max-width: 320px) {
+    #trailer-container {
+        height: 75vh;
+    }
+    #banner {
+        height: 60vh;
     }
 }
 

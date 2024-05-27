@@ -173,7 +173,6 @@
         row-gap: 20px;
     }
     .content {
-        height: 550px;
         padding: 0;
         justify-content: center;
         row-gap: 20px;
@@ -210,10 +209,15 @@
 
 @media(max-width: 320px) {
     #trailer-container {
-        height: 30em;
+        height: 28em;
     }
     #banner {
         height: 60vh;
+    }
+    .content {
+        height: 480px;
+        row-gap: 10px;
+
     }
 }
 

@@ -67,6 +67,7 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+        justify-content: center;
     }
     .actor-cards-container {
         height: 165vh;
@@ -87,10 +88,28 @@
     }
 }
 
+@media(max-width: 768px) {
+    .actor-cards-container {
+        height: 185vh;
+    }
+    .card {
+        height: 55vh;
+    }
+}
+
 @media(max-width: 688px) {
     .card {
         box-shadow: 0 0 7px #d21617;
         font-size: 0.9rem;
+    }
+}
+
+@media(max-width: 640px) {
+    .actor-cards-container {
+        height: 170vh;
+    }
+    .card {
+        height: 50vh;
     }
 }
 
@@ -113,6 +132,9 @@
 @media(max-width: 480px) {
     .actor-cards-container {
         height: 170vh;
+    }
+    .card {
+        height: 45vh;
     }
 }
 

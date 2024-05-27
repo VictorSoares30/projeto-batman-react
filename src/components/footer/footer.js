@@ -8,7 +8,9 @@ function Footer() {
     return (
         <footer>
                 <div className="footer-logo-menu">
-                    <img id="footer-logo" src={Logo} alt="logo-img" />
+                    <div className="footer-logo-box">
+                        <img id="footer-logo" src={Logo} alt="logo-img" />
+                    </div>
                     <nav className="footer-nav">
                         <ul className="footer-ul">
                             <Link style={{ textDecoration: 'none'}} to='https://www.adorocinema.com/filmes/filme-211012/creditos/'>

@@ -2,6 +2,7 @@
 
 .body {
     background-color: #3f3c39;
+    overflow-x: hidden;
 }
 
 #banner {
@@ -153,7 +154,7 @@
 
 @media(max-width: 480px) {
     #trailer-container {
-        height: 45vh;
+        height: 60vh;
     }
 }
 
@@ -191,13 +192,19 @@
 
 @media(max-width: 393px) {
     #trailer-container {
-        height: 60vh;
+        height: 55vh;
+    }
+}
+
+@media(max-width: 375px) {
+    #trailer-container {
+        height: 75vh;
     }
 }
 
 @media(max-width: 360px) {
     #trailer-container {
-        height: 65vh;
+        height: 55vh;
     }
 }
 

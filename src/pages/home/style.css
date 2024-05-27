@@ -186,7 +186,7 @@
 
 @media(max-width: 414px) {
     #trailer-container {
-        height: 50vh;
+        height: 65vh;
     }
 }
 
@@ -198,7 +198,7 @@
 
 @media(max-width: 375px) {
     #trailer-container {
-        height: 75vh;
+        height: 30em;
     }
 }
 
@@ -210,7 +210,7 @@
 
 @media(max-width: 320px) {
     #trailer-container {
-        height: 75vh;
+        height: 30em;
     }
     #banner {
         height: 60vh;

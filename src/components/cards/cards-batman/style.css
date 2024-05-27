@@ -158,13 +158,16 @@
 
 @media(max-width: 414px) {
     .actor-cards-container {
-        height: 150vh;
+        height: 75em;
+    }
+    .card {
+        height: 23em;
     }
 }
 
 @media(max-width: 360px) {
     .actor-cards-container {
-        height: 185vh;
+        height: 175vh;
     }
     .card {
         height: 45vh;

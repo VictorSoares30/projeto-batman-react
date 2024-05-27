@@ -93,6 +93,12 @@ header {
     }
 }
 
+@media(max-width: 834px) {
+    .nav-list {
+        top: 8vh;
+    }
+}
+
 @media(max-width: 820px) {
     .nav-list {
         top: 8.5vh;

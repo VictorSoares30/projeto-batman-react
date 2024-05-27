@@ -81,11 +81,11 @@ footer {
         height: 20vh;
     }
     .footer-logo-menu {
-        width: 90vw;
+        width: 70vw;
         justify-content: space-between;
     }
     #footer-logo {
-        width: 50%;
+        width: 60%;
     }
 }
 
@@ -99,6 +99,9 @@ footer {
 }
 
 @media(max-width: 480px) {
+    .footer-logo-menu {
+        height: 90vh;
+    }
     #footer-logo {
         width: 70%;
     }

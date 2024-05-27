@@ -53,7 +53,7 @@
 
 .form-content {
     width: 50%;
-    height: 550px;
+    height: 60vh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -68,6 +68,7 @@
     display: flex;
     justify-content: space-between;
     margin-bottom: 40px;
+    height: 15%;
 }
 
 .form-tittle span {
@@ -82,10 +83,9 @@
 }
 
 .form-content form {
-    height: 430px;
+    height: 70%;
     display: flex;
     flex-wrap: wrap;
-    justify-content: end;
     row-gap: 10px;
 }
 
@@ -134,7 +134,8 @@
 .form-button-box {
     display: flex;
     justify-content: end;
-    height: 30px;
+    align-items: end;
+    height: 15%;
 }
 
 .form-content .form-button {
@@ -159,16 +160,17 @@
 }
 
 .contact-box {
-    width: 30%;
-    height: 550px;
+    width: 40%;
+    height: 60vh;
     border-radius: 0 8px 8px 0;
     background-image: url('../../assets/fundo-box-contato.jpg');
     background-position: 50% 50%;
     background-size: cover;
     box-shadow: 0 0 30px 0 #ccc;
     box-sizing: border-box;
-    padding: 90px 20px;
+    padding: 100px 0;
     display: flex;
+    justify-content: space-between;
     flex-direction: column;
     row-gap: 20px;
 }
@@ -179,15 +181,13 @@
     font-weight: 500;
     color: #ccc;
     text-align: center;
-    margin-bottom: 30px;
 }
 
 .contact-content-1,.contact-content-2 {
     display: flex;
     align-items: center;
+    margin-left: 70px;
 }
-
-.contact-content-2 {margin-bottom: 30px;}
 
 .contact-span {
     color: #ccc;
@@ -204,7 +204,7 @@
 .contact-social-media {
     display: flex;
     justify-content: space-around;
-    padding: 0 10px;
+    padding: 0 30px;
 }
 
 .contact-social-media-icon {
@@ -261,7 +261,7 @@
 @keyframes animate-contato-0 {
     from {
         filter: blur(6px);
-        transform: translateX(-200%);
+        transform: translateX(-300%);
         opacity: 0;
     }
     to {
@@ -274,7 +274,7 @@
 @keyframes animate-contato-1 {
     from {
         filter: blur(6px);
-        transform: translateX(-200%);
+        transform: translateX(-300%);
         opacity: 0;
     }
     to {
@@ -284,20 +284,13 @@
     }
 }
 
-@media(max-width: 1440px) {
+@media(max-width: 1600px) {
     .contato-tittle {
-        padding-left: 30px;
+        padding: 50px 0 0 30px;
         width: 35%;
     }
     .contato-span {
         font-size: 8rem;
-    }
-    .contact-box {
-        width: 40%;
-    }
-    .form-content {
-        padding: 20px;
-        width: 55%;
     }
     #ta-span {
         margin-left: 200px;
@@ -305,32 +298,46 @@
     #to-span {
         margin-left: 300px;
     }
+    .form-content {
+        padding: 20px;
+    }
+    .contact-content-1,.contact-content-2 {
+        margin-left: 40px;
+    }
+    
 }
 
-@media(max-width: 1366px) {
-    .contato-tittle{
-        margin-top: 50px;
+@media(max-width: 1536px) {
+    .formulario {
+        height: 90vh;
+    }
+    .form-content {
+        width: 55%;
+        padding: 15px;
+    }
+    .contato-tittle {
+        padding: 80px 0 0 10px;
     }
     .contato-span {
         font-size: 7rem;
     }
 }
 
-@media(max-width: 1280px) {
-    .contato-tittle {
-        padding-left: 20px;
+@media(max-width: 1440px) {
+    .form-content {
+        width: 60%;
     }
-    .contato-span {
-        font-size: 6rem;
-    }
-    .contact-box {
-        height: 500px;
+    .contact-content-1,.contact-content-2 {
+        margin-left: 30px;
     }
     .contact-span {
         font-size: 1.1rem;
     }
-    .form-content {
-        height: 500px;
+}
+
+@media(max-width: 1280px) {
+    .contato-span {
+        font-size: 6rem;
     }
     #con-span {
         margin-top: 50px;
@@ -344,60 +351,56 @@
 }
 
 @media(max-width: 1024px) {
-    .form-container {
-        width: 65%;
+    .formulario {
+        height: 130vh;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .contato-tittle {
+        margin-top: 20px;
+        padding: 0;
+        align-items: center;
+        height: 50vh;
     }
     .contato-span {
         font-size: 5rem;
     }
-    .contact-span {
-        font-size: 0.9rem;
-    }
-    .form-content {
-        width: 55%;
-        padding: 15px;
-    }
     #con-span {
-        margin-top: 90px;
+        margin-top: 0;
     }
     #ta-span {
-        margin-left: 140px;
+        margin-left: 0;
     }
     #to-span {
-        margin-left: 220px;
+        margin-left: 0;
     }
-    .contact-icon {
-        margin-right: 10px;
+    .form-container {
+        width: 100%;
+        height: 90vh;
+        justify-content: center;
     }
-    .contact-social-media {
-        padding: 0;
+    .form-content {
+        width: 45%;
+        height: 550px;
+    }
+    .form-content .form-tittle {
+        margin-bottom: 0;
+    }
+    .contact-box {
+        width: 35%;
+        height: 550px;
     }
 }
 
 @media(max-width: 834px) {
     .formulario {
-        flex-direction: column;
-        margin-top: 0;
-        justify-content: space-between;
-        height: 850px;
+        height: 90vh;
     }
-    .contato-tittle {
-        padding: 0;
-        width: 100%;
-        align-items: center;
+    .form-content {
+        width: 50%;
     }
-    .form-container {
-        width: 100%;
-        justify-content: center;
-    }
-    #con-span {
-        margin-top: 0;
-    }
-    #ta-span {
-        margin-left: 0;
-    }
-    #to-span {
-        margin-left: 0;
+    .contact-box {
+        width: 40%;
     }
     .contact-span {
         font-size: 1.1rem;
@@ -410,25 +413,19 @@
     }
 }
 
-@media(max-width: 800px) {
-    .formulario {
-        height: 950px;
-    }
+@media(max-width: 820px) {
     .form-content {
-        height: 600px;
         padding: 10px;
+        height: 50vh;
     }
     .contact-box {
-        height: 600px;
+        height: 50vh;
     }
     .form-tittle span {
         font-size: 1.6rem;
     } 
     .form-tittle-icon {
         font-size: 1.6rem;
-    }
-    .form-content form {
-        height: 500px;
     }
     .form-content input {
         height: 50px;
@@ -441,55 +438,26 @@
         height: 30px;
         font-size: 14px;
     }
+    .contact-content-1,.contact-content-2 {
+        margin-left: 30px;
+    }
 }
 
-@media(min-height: 1336px) {
-    .formulario {
-        flex-direction: column;
-        margin-top: 0;
-        justify-content: space-between;
-        height: 1000px;
+@media(max-width: 800px) {
+    .form-content {
+        height: 45vh;
     }
-    .contato-tittle {
-        padding: 0;
-        width: 100%;
-        align-items: center;
-        justify-content: center;
-    }
-    .form-container {
-        width: 100%;
-        justify-content: center;
-    }
-    #con-span {
-        margin-top: 0;
-    }
-    #ta-span {
-        margin-left: 0;
-    }
-    #to-span {
-        margin-left: 0;
-    }
-    .contact-span {
-        font-size: 1.3rem;
-    }
-    .contact-icon {
-        margin-right: 20px;
-    }
-    .contact-content-1,.contact-content-2 {
-        margin-left: 20px;
+    .contact-box {
+        height: 45vh;
     }
 }
 
 @media(max-width: 768px) {
-    .formulario {
-        height: 750px;
-        justify-content: space-between;
-    }
     .form-content {
-        height: 450px;
+        height: 50vh;
     }
     .contact-box {
-        height: 450px;
+        height: 50vh;
     }
     .form-tittle span {
         font-size: 1.5rem;
@@ -497,17 +465,11 @@
     .form-tittle-icon {
         font-size: 1.5rem;
     }
-    .form-content form {
-        height: 400px;
-    }
     .form-content input {
-        height: 35px;
+        height: 45px;
     }
     .form-content textarea {
         height: 180px;
-    }
-    .contact-icon {
-        margin-right: 10px;
     }
     .contact-content-1,.contact-content-2 {
         margin-left: 10px;
@@ -521,23 +483,35 @@
     .contact-span {
         font-size: 1.1rem;
     }
-    .contact-icon {
-        margin-right: 10px;
-    }
     .contact-content-1,.contact-content-2 {
-        margin-left: 0;
+        margin-left: 20px;
     }
 }
 
 @media(max-width: 640px) {
     .formulario {
-        height: 830px;
+        height: 100vh;
+    }
+    .form-content {
+        height: 55vh;
+    }
+    .contact-box {
+        height: 55vh;
+    }
+    .contato-span {
+        font-size: 4rem;
+    }
+    .form-content input {
+        height: 35px;
+    }
+    .contact-box {
+        padding: 80px 0;
     }
     .contact-span {
-        font-size: 1rem;
+        font-size: 0.9rem;
     }
-    .form-content .form-tittle {
-        margin-bottom: 14px;
+    .contact-icon {
+        font-size: 1.6rem;
     }
     .form-tittle span {
         font-size: 1.2rem;

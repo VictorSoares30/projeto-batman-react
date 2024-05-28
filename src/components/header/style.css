@@ -99,12 +99,6 @@ header {
     }
 }
 
-@media(max-width: 820px) {
-    .nav-list {
-        top: 8.5vh;
-    }
-}
-
 @media(max-width: 768px) {
     #logo {
         width: 120px;
@@ -114,12 +108,9 @@ header {
     }
 }
 
-@media(max-width: 640px) {
-    #logo {
-        width: 120px;
-    }
+@media(max-width: 480px) {
     .nav-links {
-        font-size: 0.9rem;
+        font-size: 1rem;
     }
 }
 
@@ -129,6 +120,7 @@ header {
     }
     .nav-links {
         margin-right: 30px;
+        font-size: 0.8rem;
     }
     .nav-list {
         top: 7.5vh;

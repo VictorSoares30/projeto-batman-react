@@ -1,34 +1,4 @@
 .main-container {
-    height: 170vh;
     background-color: #3f3c39;
 }
-
-@media(max-width: 1024px) {
-    .main-container {
-        height: 130vh;
-    }
-}
-
-@media(max-width: 768px) {
-    .main-container {
-        height: 160vh;
-    }
-}
-
-@media(max-width: 430px) {
-    .main-container {
-        height: 120vh;
-    }
-}
-
-@media(max-width: 320px) {
-    .main-container {
-        height: 160vh;
-    }
-}
-
-
-
-
-   
 

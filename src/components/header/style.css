@@ -93,7 +93,7 @@ header {
     }
 }
 
-@media(max-width: 834px) {
+@media(max-width: 876px) {
     .nav-list {
         top: 8vh;
     }
@@ -110,7 +110,7 @@ header {
 
 @media(max-width: 480px) {
     .nav-links {
-        font-size: 1rem;
+        font-size: 0.9rem;
     }
 }
 
@@ -148,6 +148,9 @@ header {
     }
     .nav-list {
         top: 7vh;
+    }
+    .nav-links {
+        font-size: 0.6rem;
     }
 }
 
